@@ -1,0 +1,89 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.8;
+  color: #8b9467; /* Soft green text color */
+  background-color: #f9f4f4; /* Soft pink background */
+}
+
+/* Navigation Styles */
+
+nav {
+  background-color: #ffc5c5; /* Soft pink navigation background */
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav h2 {
+  margin: 0;
+  font-family: 'Playfair Display', serif; /* Elegant font family */
+}
+
+/* Main Styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #8b9467; /* Soft green text color */
+}
+
+form input[type="number"], form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form button[type="submit"] {
+  background-color: #ffc5c5; /* Soft pink button background */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button[type="submit"]:hover {
+  background-color: #ffd7be; /* Soft peach background on hover */
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #8b9467; /* Soft green text color */
+}
+footer {
+  background-color: #ffc5c5; /* Soft pink background */
+  padding: 10px;
+  text-align: center;
+  color: #fff; /* White text color */
+  font-size: 14px;
+  border-top: 1px solid #ffc5c5; /* Soft pink border */
+}
